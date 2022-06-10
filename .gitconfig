@@ -1,0 +1,22 @@
+[user]
+    name = Yuka Ko
+    email = ko.yuka.kp2@is.naist.jp
+[alias]
+    graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all
+    g = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all
+    b = branch
+    c = checkout
+    d = diff
+    l = log
+    co = commit
+    a = add
+    s = status -uno
+    p = push
+[core]
+    editor = ~/.local/bin/nvim.appimage
+    pager = LESSCHARSET=utf-8 less
+[push]
+    default = current
+[url "github:"]
+    InsteadOf = https://github.com/
+    InsteadOf = git@github.com:
